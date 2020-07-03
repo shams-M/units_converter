@@ -32,7 +32,7 @@ class _UnitsCategoryState extends State<UnitsCategory> {
                   )),onTap: (){
               UnitsCategory.indx=index;
                 Navigator.of(context).push(MaterialPageRoute(builder: (context){
-                  return CurrencyExchange();
+                  return UnitsConverter();
                 }));
             },
             );

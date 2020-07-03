@@ -5,12 +5,12 @@ import 'package:flutter/widgets.dart';
 
 import 'constants.dart';
 
-class CurrencyExchange extends StatefulWidget {
+class UnitsConverter extends StatefulWidget {
   @override
-  _CurrencyExchangeState createState() => _CurrencyExchangeState();
+  _UnitsConverterState createState() => _UnitsConverterState();
 }
 
-class _CurrencyExchangeState extends State<CurrencyExchange> {
+class _UnitsConverterState extends State<UnitsConverter> {
   var mytext = '';
   var converted_val = '0.0';
   int comefrom=UnitsCategory.indx;
