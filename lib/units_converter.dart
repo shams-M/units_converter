@@ -13,7 +13,7 @@ class CurrencyExchange extends StatefulWidget {
 class _CurrencyExchangeState extends State<CurrencyExchange> {
   var mytext = '';
   var converted_val = '0.0';
-  static int comefrom=UnitsCategory.indx;
+  int comefrom=UnitsCategory.indx;
   num selected1 = 1.0;
   num selected2 = 1.0;
 
@@ -80,6 +80,7 @@ class _CurrencyExchangeState extends State<CurrencyExchange> {
                     padding: const EdgeInsets.all(10.0),
                     child: Text(
                       converted_val,
+
                       style: TextStyle(fontSize: 40, color: Colors.white),
                     ),
                   ),
